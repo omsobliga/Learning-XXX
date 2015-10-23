@@ -1,4 +1,4 @@
-# Git resources
+# Resources
 
 ## Best Practices
 
