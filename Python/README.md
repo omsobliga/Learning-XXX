@@ -1,6 +1,6 @@
-# Resources
+# Python Resources
 
-## Syntax
+## Basic Syntax
 
 - **@staticmethod and @classmethod**
   - [What is the difference between @staticmethod and @classmethod in Python?](http://stackoverflow.com/questions/136097/what-is-the-difference-between-staticmethod-and-classmethod-in-python)
@@ -17,3 +17,10 @@
 
 - **greenlet**
   - [Greenlet Learning Note](./greenlet-learning-note.md)
+
+- **pip**
+  - [Installing specific package versions with pip](http://stackoverflow.com/questions/5226311/installing-specific-package-versions-with-pip)
+
+## Best Practices
+
+- [Python documentation standard for docstring](http://stackoverflow.com/questions/5334531/python-documentation-standard-for-docstring)
