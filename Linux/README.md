@@ -4,8 +4,8 @@
 
 ## Best Practices
 
-- *grep*
-  - [Grep a file, but show several surrounding lines?](http://stackoverflow.com/questions/9081/grep-a-file-but-show-several-surrounding-lines)
+- **grep**
+    - [Grep a file, but show several surrounding lines?](http://stackoverflow.com/questions/9081/grep-a-file-but-show-several-surrounding-lines)
 
 ## Tutorials:
 
