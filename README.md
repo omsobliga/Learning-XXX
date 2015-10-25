@@ -8,8 +8,8 @@ See the Learning-XXX Documentation: <http://learning-xxx.readthedocs.org>
 
 ## Contents
 
-- [Git](./Git)
-- [Linux](./Linux)
-- [Programming](./Programming)
-- [Python](./Python)
-- [VIM](./VIM)
+- [Git](./docs/Git)
+- [Linux](./docs/Linux)
+- [Programming](./docs/Programming)
+- [Python](./docs/Python)
+- [VIM](./docs/VIM)

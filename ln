@@ -1,5 +1,0 @@
-ln -sf ../Git/README.md docs/git.md
-ln -sf ../Linux/README.md docs/linux.md
-ln -sf ../Programming/README.md docs/programming.md
-ln -sf ../Python/README.md docs/python.md
-ln -sf ../VIM/README.md docs/vim.md

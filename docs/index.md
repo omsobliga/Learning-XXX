@@ -6,8 +6,8 @@ Learning notes and resources.
 
 ## Contents
 
-- [Git](./git)
-- [Linux](./linux)
-- [Programming](./programming)
-- [Python](./python)
-- [VIM](./vim)
+- [Git](./Git/README)
+- [Linux](./Linux/README)
+- [Programming](./Programming/README)
+- [Python](./Python/README)
+- [VIM](./Vim/README)

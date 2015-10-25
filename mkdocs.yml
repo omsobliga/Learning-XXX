@@ -1,9 +1,2 @@
 site_name: Learning-XXX
-pages:
-- Home: index.md
-- Git: git.md
-- Linux: linux.md
-- Programming: programming.md
-- Python: python.md
-- VIM: vim.md
 theme: readthedocs
