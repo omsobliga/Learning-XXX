@@ -9,7 +9,6 @@
 - **import**
     - [Modules](https://docs.python.org/2/tutorial/modules.html)
     - [Importing Python Modules](http://effbot.org/zone/import-confusion.htm)
-    - ['import module' or 'from module import'](http://stackoverflow.com/questions/710551/import-module-or-from-module-import)
 
 - **@staticmethod and @classmethod**
     - [What is the difference between @staticmethod and @classmethod in Python?](http://stackoverflow.com/questions/136097/what-is-the-difference-between-staticmethod-and-classmethod-in-python)

@@ -12,3 +12,4 @@
 ## References:
 
 - [什么才算是真正的编程能力？](http://www.zhihu.com/question/31034164/answer/50423838)
+- [Recommended Books](http://www.douban.com/doulist/37758337/)
