@@ -54,5 +54,6 @@
 ## References:
 
 - [A curated list of awesome Python frameworks, libraries and software](https://github.com/vinta/awesome-python)
+- [Easy-Python](https://github.com/fengsp/easy-python)
 - [stackoverflow 上 Python 相关回答整理翻译](https://github.com/wklken/stackoverflow-py-top-qa)
 - [Must-watch videos about Python](https://github.com/s16h/py-must-watch)
