@@ -10,4 +10,4 @@ Learning notes and resources.
 - [Linux](./Linux/README)
 - [Programming](./Programming/README)
 - [Python](./Python/README)
-- [VIM](./Vim/README)
+- [VIM](./VIM/README)
