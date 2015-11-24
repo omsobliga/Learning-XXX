@@ -1,8 +1,6 @@
 # Learning-XXX
 
-Learning notes and resources. Only record the library or syntax which i has used ago.
-
-See the Learning-XXX Documentation: <http://learning-xxx.readthedocs.org>
+Learning notes and resources. You can also see the [detail documentation](http://learning-xxx.readthedocs.org)
 
 ---
 
