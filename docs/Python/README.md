@@ -35,6 +35,7 @@
 - **profiler**
     - [line_profiler](https://github.com/rkern/line_profiler)
     - [Python 性能分析入门指南](http://segmentfault.com/a/1190000000616798)
+    - [Inject code into running Python processes](https://github.com/lmacken/pyrasite)
 
 - **unittest**
     - [nose](https://nose.readthedocs.org/en/latest/)

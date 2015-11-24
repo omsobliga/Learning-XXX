@@ -2,6 +2,9 @@
 
 ## Basic Syntax
 
+- **dmesg** -- display the system message buffer
+    - [The dmesg Command](http://www.linfo.org/dmesg.html)
+
 - **grep**
     - [Grep a file, but show several surrounding lines?](http://stackoverflow.com/questions/9081/grep-a-file-but-show-several-surrounding-lines)
 
@@ -9,6 +12,12 @@
     - [What does "./configure; make; make install" do?](http://askubuntu.com/questions/173088/what-does-configure-make-make-install-do)
 
 ## Best Practices
+
+- **How to find the largest files in linux?**
+    - <http://linuxlookup.com/howto/find_all_large_files_linux_system>
+        - `find / -type f -size +20M -exec ls -lh {} \; 2> /dev/null | awk '{ print $NF ": " $5 }' | sort -nk 2,2`
+    - <http://www.cyberciti.biz/faq/how-do-i-sort-du-h-output-by-size-under-linux/>
+    - <http://www.cyberciti.biz/faq/how-do-i-find-the-largest-filesdirectories-on-a-linuxunixbsd-filesystem/>
 
 ## References:
 
