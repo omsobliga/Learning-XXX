@@ -1,6 +1,6 @@
 # Markup Language
 
-## markdown
+## Markdown
 
 * Markdown Syntax
     + The inventor of the Markdown <http://daringfireball.net/projects/markdown/syntax>
