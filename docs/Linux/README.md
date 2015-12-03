@@ -8,8 +8,6 @@
 - **grep**
     - [Grep a file, but show several surrounding lines?](http://stackoverflow.com/questions/9081/grep-a-file-but-show-several-surrounding-lines)
 
-
-
 - **make**
     - [What does "./configure; make; make install" do?](http://askubuntu.com/questions/173088/what-does-configure-make-make-install-do)
 
