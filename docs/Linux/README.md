@@ -28,6 +28,9 @@
     - **iconv** - Convert encoding of given files from one encoding to another
         - `iconv -f UTF8 -t GB18030 a.csv > b.csv`
 
+- **A code-searching tool similar to ack, but faster.**
+    - <https://github.com/ggreer/the_silver_searcher>
+
 ## References:
 
 - [Master the command line, in one page](https://github.com/jlevy/the-art-of-command-line)

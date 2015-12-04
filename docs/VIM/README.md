@@ -1,5 +1,9 @@
 # VIM Resources
 
+## Basic Usages
+
+* **:help** - VIM help file
+
 ## Best Practices
 
 * VIM 分屏
@@ -25,8 +29,13 @@
     - <http://blog.csdn.net/bigshady/article/details/6019963>
     - `%`
 
+* 按键映射
+    - <http://haoxiang.org/2011/09/vim-modes-and-mappin/>
+    - `:map <C-a> a` 令 Ctrl + a 对应到 a
 
 ## References
 
+* [Amir Salihefendic's vimrc](http://amix.dk/vim/vimrc.html)
+* [The ultimate Vim configuration: vimrc](https://github.com/amix/vimrc)
+* [My vimrc](https://github.com/omsobliga/profile/blob/master/.vimrc)
 * [k-vim](https://github.com/wklken/k-vim)
-* [my-vimrc](https://github.com/omsobliga/profile/blob/master/.vimrc)
