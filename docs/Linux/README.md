@@ -1,6 +1,12 @@
 # Linux Resources
 
-## Basic Syntax
+## Tools
+
+- **ag** - A code-searching tool similar to ack, but faster.
+    - <https://github.com/ggreer/the_silver_searcher>
+
+- **curl**
+    - [curl 网站开发指南](http://www.ruanyifeng.com/blog/2011/09/curl.html)
 
 - **dmesg** - display the system message buffer
     - [The dmesg Command](http://www.linfo.org/dmesg.html)
@@ -27,9 +33,6 @@
         - `file a.csv`
     - **iconv** - Convert encoding of given files from one encoding to another
         - `iconv -f UTF8 -t GB18030 a.csv > b.csv`
-
-- **A code-searching tool similar to ack, but faster.**
-    - <https://github.com/ggreer/the_silver_searcher>
 
 ## References:
 
