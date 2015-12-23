@@ -20,6 +20,10 @@
 - **stat** - display file or file system status
     - [stat(1) - Linux man page](http://linux.die.net/man/1/stat)
 
+- **tcpdump** - dump traffic on a network
+    - [A tcpdump Primer with Examples](https://danielmiessler.com/study/tcpdump/)
+    - Usage: `tcpdump -i lo0 port 8000`, Listen 8000 port on the lo0 interface
+
 ## Best Practices
 
 - **How to find the largest files in linux?**
