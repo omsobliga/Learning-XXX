@@ -3,7 +3,10 @@
 ## Tools
 
 - **ag** - A code-searching tool similar to ack, but faster.
-    - <https://github.com/ggreer/the_silver_searcher>
+    - [Github](https://github.com/ggreer/the_silver_searcher)
+
+- **cheat** - linux 命令小抄，比 help 和 man 命令更容易理解，通过实例告诉你怎么使用。
+    - [Github](https://github.com/chrisallenlane/cheat)
 
 - **curl**
     - [curl 网站开发指南](http://www.ruanyifeng.com/blog/2011/09/curl.html)
