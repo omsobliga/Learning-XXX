@@ -8,6 +8,9 @@
 - **cheat** - linux 命令小抄，比 help 和 man 命令更容易理解，通过实例告诉你怎么使用。
     - [Github](https://github.com/chrisallenlane/cheat)
 
+- **cloc** - Count Lines of Code
+    - [AlDanial/cloc](https://github.com/AlDanial/cloc)
+
 - **curl**
     - [curl 网站开发指南](http://www.ruanyifeng.com/blog/2011/09/curl.html)
 
@@ -40,6 +43,10 @@
         - `file a.csv`
     - **iconv** - Convert encoding of given files from one encoding to another
         - `iconv -f UTF8 -t GB18030 a.csv > b.csv`
+
+- **Linux 的性能诊断**
+    - [Linux 性能分析的第一分钟](http://www.oschina.net/translate/linux-performance-analysis-in-60s)
+    - [Linux Performance Analysis in 60,000 Milliseconds](http://techblog.netflix.com/2015/11/linux-performance-analysis-in-60s.html)
 
 ## References:
 

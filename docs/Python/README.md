@@ -2,6 +2,11 @@
 
 ## Basic Syntax
 
+- **dir**
+    - Without arguments, return the list of names in the current local scope.
+    - With an argument, attempt to return a list of valid attributes for that object.
+    - [dir](https://docs.python.org/2/library/functions.html#dir)
+
 - **GIL**
     - [Understanding the Python GIL](http://www.dabeaz.com/GIL/)
         - [Video](https://www.youtube.com/watch?v=ph374fJqFPE)
@@ -22,6 +27,9 @@
     - [PEP 342 -- Coroutines via Enhanced Generators](https://www.python.org/dev/peps/pep-0342/)
 
 ## Libraries
+
+- **Gevent**
+    - [Gevent 写的代码在 socket 的接受消息后是如何进行回调的？](https://www.zhihu.com/question/20703476/answer/15911452)
 
 - **greenlet**
     - [Greenlet Learning Note](./greenlet-learning-note.md)
