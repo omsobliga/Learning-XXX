@@ -2,6 +2,10 @@
 
 ## Basic Syntax
 
+- **argparse**
+    - [argparse](https://docs.python.org/3.3/library/argparse.html)
+    - [Python Command Line Arguments Examples](http://www.cyberciti.biz/faq/python-command-line-arguments-argv-example/)
+
 - **dir**
     - Without arguments, return the list of names in the current local scope.
     - With an argument, attempt to return a list of valid attributes for that object.

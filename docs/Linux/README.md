@@ -29,6 +29,9 @@
     - [Linux iostat 监测 IO 状态](http://www.orczhou.com/index.php/2010/03/iostat-detail/)
     - [实例讲解 iostat](http://www.php-oa.com/2009/02/03/iostat.html)
 
+- **lsof** - list open files
+    - Usage: `lsof -i TCP:80`, to find which program is using the port 80.
+
 - **make** - GNU make utility to maintain groups of programs
     - [What does "./configure; make; make install" do?](http://askubuntu.com/questions/173088/what-does-configure-make-make-install-do)
 
@@ -40,7 +43,7 @@
     - [stat(1) - Linux man page](http://linux.die.net/man/1/stat)
 
 - **tcpdump** - dump traffic on a network
-    - Usage: `tcpdump -i lo0 port 8000`, Listen 8000 port on the lo0 interface
+    - Usage: `tcpdump -i lo0 port 8000`, listen 8000 port on the lo0 interface.
     - [A tcpdump Primer with Examples](https://danielmiessler.com/study/tcpdump/)
     - [Linux tcpdump 命令详解](http://www.cnblogs.com/ggjucheng/archive/2012/01/14/2322659.html)
 
@@ -61,6 +64,10 @@
         - Usage: `file a.csv`
     - **iconv** - Convert encoding of given files from one encoding to another
         - Usage: `iconv -f UTF8 -t GB18030 a.csv > b.csv`
+
+- **listen host and port**
+    - `lsof -i TCP:80`, to find which program is using the port 80.
+    - `tcpdump -i lo0 port 8000`, listen 8000 port on the lo0 interface.
 
 - **Linux 的性能诊断**
     - [Linux 性能分析的第一分钟](http://www.oschina.net/translate/linux-performance-analysis-in-60s)
