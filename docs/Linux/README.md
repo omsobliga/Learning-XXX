@@ -12,6 +12,10 @@
     - [AlDanial/cloc](https://github.com/AlDanial/cloc)
 
 - **curl** - transfer a URL
+    - Usage:
+        * `curl example.com`
+        * `curl -A 'Baiduspider' example.com` 指定 User Agent
+        * `curl -X POST --data "data=xxx" example.com` 使用 POST 方法
     - [curl 网站开发指南](http://www.ruanyifeng.com/blog/2011/09/curl.html)
 
 - **dmesg** - display the system message buffer
