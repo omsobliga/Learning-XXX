@@ -18,7 +18,7 @@
     - [The dmesg Command](http://www.linfo.org/dmesg.html)
 
 - **free** - Display amount of free and used memory in the system
-    - Usage: `free -h` or `free -m`
+    - Usage: `free -h` or `free -m` 查看内存使用情况
     - [Linux 的 free 命令详解](http://www.php-oa.com/2008/04/04/linux-free.html)
 
 - **grep** - print lines matching a pattern
@@ -34,6 +34,12 @@
 
 - **make** - GNU make utility to maintain groups of programs
     - [What does "./configure; make; make install" do?](http://askubuntu.com/questions/173088/what-does-configure-make-make-install-do)
+
+- **netstat** - prints information about the Linux networking subsystem
+    - Usage:
+        * `netstat -a | grep 2901` 查看某端口的网络连接情况
+        * `netstat -a | grep TIME_WAIT | wc -l` 计算处于 TIME_WAIT 状态的连接数
+    - [Linux netstat 命令详解](http://www.cnblogs.com/ggjucheng/archive/2012/01/08/2316661.html)
 
 - **sar** - system activity information.（最全面的系统分析工具）
     - Usage: `sar -n DEV 1 2`, `sar -n TCP,ETCP 1 2` 检查网络接口的吞吐量
