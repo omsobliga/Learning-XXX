@@ -41,6 +41,9 @@
         * `netstat -a | grep TIME_WAIT | wc -l` 计算处于 TIME_WAIT 状态的连接数
     - [Linux netstat 命令详解](http://www.cnblogs.com/ggjucheng/archive/2012/01/08/2316661.html)
 
+- **ps** - process status
+    - `ps -ef`: UID   PID  PPID   C STIME   TTY           TIME CMD
+
 - **sar** - system activity information.（最全面的系统分析工具）
     - Usage: `sar -n DEV 1 2`, `sar -n TCP,ETCP 1 2` 检查网络接口的吞吐量
     - [Useful Sar (Sysstat) Examples for UNIX / Linux Performance Monitoring](http://www.thegeekstuff.com/2011/03/sar-examples/)
