@@ -46,7 +46,7 @@
     - [Linux netstat 命令详解](http://www.cnblogs.com/ggjucheng/archive/2012/01/08/2316661.html)
 
 - **ps** - process status
-    - `ps -ef`: UID   PID  PPID   C STIME   TTY           TIME CMD
+    - `ps -ef`: UID PID PPID C STIME TTY TIME CMD
 
 - **sar** - system activity information.（最全面的系统分析工具）
     - Usage: `sar -n DEV 1 2`, `sar -n TCP,ETCP 1 2` 检查网络接口的吞吐量
@@ -56,9 +56,15 @@
     - [stat(1) - Linux man page](http://linux.die.net/man/1/stat)
 
 - **tcpdump** - dump traffic on a network
-    - Usage: `tcpdump -i lo0 port 8000`, listen 8000 port on the lo0 interface.
+    - Usage:
+        * `tcpdump -i lo0 port 8000`, listen 8000 port on the lo0 interface.
+        * `sudo tcpdump -A src port 8080`, print each pocket on 8080 port from src.
+        * `sudo tcpdump -A dst port 8080`, print each pocket on 8080 port to dst.
     - [A tcpdump Primer with Examples](https://danielmiessler.com/study/tcpdump/)
     - [Linux tcpdump 命令详解](http://www.cnblogs.com/ggjucheng/archive/2012/01/14/2322659.html)
+
+- **tmux** - terminal multiplexer
+    - [Tmux：Linux 从业者必备利器](http://blog.jobbole.com/87562/)
 
 - **vmstat** - Report virtual memory statistics
     - Usage: `vmstat 1`
