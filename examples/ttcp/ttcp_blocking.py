@@ -11,8 +11,8 @@
 
 Usage:
 
-    `python ttcp_blocking.py -r localhost -p 3333 -l 1024 -n 100000`
-    `python ttcp_blocking.py -t localhost -p 3333 -l 1024 -n 100000`
+    `python ttcp_blocking.py -r localhost -p 3033 -l 1024 -n 100000`
+    `python ttcp_blocking.py -t localhost -p 3033 -l 1024 -n 100000`
 """
 
 import logging
@@ -23,11 +23,11 @@ import socket
 import time
 
 
-def get_acceptted_socket(host, port):
+def get_acceptted_socket(port):
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     # 设置 SO_REUSEADDR，端口释放后立即就可以再次被使用
     sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-    sock.bind((host, port))
+    sock.bind(('', port))  # '' 表示绑定任何 IP
     sock.listen(5)
     conn, addr = sock.accept()
     logging.info('Accept addr {}'.format(addr))
@@ -92,10 +92,10 @@ def transmit(host, port, buffer_length, number_buffers):
     sock.close()
 
 
-def receive(host, port, buffer_length, number_buffers):
+def receive(port, buffer_length, number_buffers):
     """ 接受数据
     """
-    sock = get_acceptted_socket(host, port)
+    sock = get_acceptted_socket(port)
     for i in xrange(number_buffers):
         read_n(sock, buffer_length)
         write_n(sock, 'ACK', len('ACK'))
@@ -122,7 +122,7 @@ def main():
         if args.t:
             transmit(args.t, int(args.p), int(args.l), int(args.n))
         elif args.r:
-            receive(args.r, int(args.p), int(args.l), int(args.n))
+            receive(int(args.p), int(args.l), int(args.n))
         else:
             assert False, 'Set -t or -r'
     except TypeError:
