@@ -15,7 +15,7 @@
 
 - **git revert**
     - **git revert -m <parent-number> <commit>**
-        - [How to revert a merge commit that's already pushed to remote branch?] http://stackoverflow.com/a/7100005/3175815
+        - [How to revert a merge commit that's already pushed to remote branch?](http://stackoverflow.com/a/7100005/3175815)
 
 ## Best Practices
 

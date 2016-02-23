@@ -9,6 +9,7 @@ Learning notes and resources. You can also see the [detail documentation](http:/
 - [Git](./docs/Git)
 - [Linux](./docs/Linux)
 - [Markup](./docs/Markup)
+- [NetworkProgramming](./docs/NetworkProgramming)
 - [Programming](./docs/Programming)
 - [Python](./docs/Python)
 - [VIM](./docs/VIM)
