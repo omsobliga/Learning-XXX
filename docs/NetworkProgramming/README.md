@@ -14,3 +14,4 @@
 
 - [由 socket 的 accept 说开去](http://ticktick.blog.51cto.com/823160/779866)
 - [Are parallel calls to send/recv on the same socket valid?](http://stackoverflow.com/questions/1981372/are-parallel-calls-to-send-recv-on-the-same-socket-valid)
+- [Atomic write on an unix socket?](http://stackoverflow.com/questions/4669710/atomic-write-on-an-unix-socket)

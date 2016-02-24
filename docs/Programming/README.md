@@ -6,6 +6,10 @@
     - [When to use log level WARN vs ERROR?](http://stackoverflow.com/questions/2031163/when-to-use-log-level-warn-vs-error)
     - [最佳日志实践](http://www.bitstech.net/2014/01/07/log-best-practice/)
 
+## Best Practice
+
+- [控制流的抽象](http://blog.psjay.com/posts/abstracting-control-flow/)
+
 ## References:
 
 - [Recommended Books](http://www.douban.com/doulist/37758337/)
