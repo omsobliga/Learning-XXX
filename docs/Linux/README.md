@@ -39,6 +39,10 @@
 - **make** - GNU make utility to maintain groups of programs
     - [What does "./configure; make; make install" do?](http://askubuntu.com/questions/173088/what-does-configure-make-make-install-do)
 
+- **netcat** - TCP/IP swiss army knife
+    - Usage: Echo Server: `nc -l 1567`, Client: `nc localhost 1567`
+    - [Linux Netcat 命令——网络工具中的瑞士军刀](http://www.oschina.net/translate/linux-netcat-command)
+
 - **netstat** - prints information about the Linux networking subsystem
     - Usage:
         * `netstat -a | grep 2901` 查看某端口的网络连接情况

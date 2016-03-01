@@ -19,6 +19,9 @@
     - [Modules](https://docs.python.org/2/tutorial/modules.html)
     - [Importing Python Modules](http://effbot.org/zone/import-confusion.htm)
 
+- **PYTHONPATH**
+    - [PYTHONPATH](https://docs.python.org/2/using/cmdline.html#envvar-PYTHONPATH)
+
 - **@staticmethod and @classmethod**
     - [What is the difference between @staticmethod and @classmethod in Python?](http://stackoverflow.com/questions/136097/what-is-the-difference-between-staticmethod-and-classmethod-in-python)
     - [What are Class methods in Python for?](http://stackoverflow.com/a/38276/3175815)
@@ -31,6 +34,11 @@
     - [PEP 342 -- Coroutines via Enhanced Generators](https://www.python.org/dev/peps/pep-0342/)
 
 ## Libraries
+
+- **threading**
+    - [Daemon Threads Explanation](http://stackoverflow.com/questions/190010/daemon-threads-explanation)
+    - [thread with daemon](https://gist.github.com/omsobliga/9f50a0c9460f85d98149)
+    - [thread with join](https://gist.github.com/omsobliga/54922e86df976af9a727)
 
 - **Gevent**
     - [Gevent 写的代码在 socket 的接受消息后是如何进行回调的？](https://www.zhihu.com/question/20703476/answer/15911452)
