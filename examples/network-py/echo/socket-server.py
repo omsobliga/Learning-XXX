@@ -20,6 +20,7 @@ LISTENNQ = 5
 
 def main():
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
     s.bind((HOST, PORT))
     s.listen(LISTENNQ)
     while True:
@@ -29,6 +30,7 @@ def main():
             data = conn.recv(1024)
             if not data:
                 break
+            print data
             conn.sendall(data)
         conn.close()
     s.close()

@@ -17,6 +17,8 @@ Learning notes and resources. You can also see the [detail documentation](http:/
 ## Examples
 
 - [echo server c version](./examples/echo-server-c/)
-- [echo server python version](./examples/echo-server-python/)
-- [roundtrip](./examples/roundtrip/)
-- [ttcp](./examples/ttcp/)
+- [network-py](./examples/network-py/)
+    - [echo](./examples/network-py/echo)
+    - [roundtrip](./examples/network-py/roundtrip)
+    - [sender](./examples/network-py/sender)
+    - [ttcp](./examples/network-py/ttcp)
