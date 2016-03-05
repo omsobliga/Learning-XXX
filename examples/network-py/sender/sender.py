@@ -7,7 +7,11 @@ Corrent send: send() + shutdown(WR) + read() == 0 + close()
 Corrent receive: read() == 0 + if nothing more to send + close()
 
 Usage:
+    nc localhost 3033 | wc -c
     python sender/sender.py filename port
+
+TODO:
+- 未成功复现采用 `Wrong close` 方法之后会造成 nc 接受的数据不完整。
 """
 
 import os

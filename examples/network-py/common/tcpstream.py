@@ -19,6 +19,9 @@ class TcpServer(object):
         conn, addr = self.socket.accept()
         return IOStream(conn), addr
 
+    def set_nodelay(self):
+        self.socket.setsockopt(socket.IPPROTO_TCP, socket.TCP_NODELAY, 1)
+
     def close(self):
         self.socket.close()
 
@@ -32,6 +35,9 @@ class TcpClient(object):
         self.socket.connect((host, port))
         return IOStream(self.socket)
 
+    def set_nodelay(self):
+        self.socket.setsockopt(socket.IPPROTO_TCP, socket.TCP_NODELAY, 1)
+
     def close(self):
         self.socket.close()
 
@@ -41,11 +47,17 @@ class IOStream(object):
     def __init__(self, socket):
         self.socket = socket
 
+    def set_nodelay(self):
+        self.socket.setsockopt(socket.IPPROTO_TCP, socket.TCP_NODELAY, 1)
+
     def shutdown_read(self):
         self.socket.shutdown(socket.SHUT_RD)
 
     def shutdown_write(self):
         self.socket.shutdown(socket.SHUT_WR)
+
+    def recvall(self, bufsize):
+        return self.socket.recv(bufsize, socket.MSG_WAITALL)
 
     def close(self):
         self.socket.close()
