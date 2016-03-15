@@ -5,6 +5,10 @@
 - **ag** - A code-searching tool similar to ack, but faster.
     - [ggreer/the_silver_searcher](https://github.com/ggreer/the_silver_searcher)
 
+- **awk** - pattern scanning and processing language
+    - Usage: `awk -F "," '{print $2}' t.txt` 以逗号做分割从文件中提取数据
+    - [AWK 简明教程 - 酷壳](http://coolshell.cn/articles/9070.html)
+
 - **cheat** - linux 命令小抄，比 help 和 man 命令更容易理解，通过实例告诉你怎么使用。
     - [chrisallenlane/cheat](https://github.com/chrisallenlane/cheat)
 

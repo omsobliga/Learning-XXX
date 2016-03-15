@@ -35,6 +35,9 @@
 
 ## Libraries
 
+- **arrow** - Better dates & times for Python
+    - [crsmithdev/arrow](https://github.com/crsmithdev/arrow/)
+
 - **threading**
     - [Daemon Threads Explanation](http://stackoverflow.com/questions/190010/daemon-threads-explanation)
     - [thread with daemon](https://gist.github.com/omsobliga/9f50a0c9460f85d98149)
