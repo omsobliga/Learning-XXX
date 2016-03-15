@@ -8,6 +8,7 @@ Learning notes and resources. You can also see the [detail documentation](http:/
 
 - [Git](./docs/Git)
 - [Linux](./docs/Linux)
+- [Linux Shell](./docs/Linux/SHELL.md)
 - [Markup](./docs/Markup)
 - [NetworkProgramming](./docs/NetworkProgramming)
 - [Programming](./docs/Programming)

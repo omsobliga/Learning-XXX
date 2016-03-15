@@ -6,7 +6,9 @@
     - [ggreer/the_silver_searcher](https://github.com/ggreer/the_silver_searcher)
 
 - **awk** - pattern scanning and processing language
-    - Usage: `awk -F "," '{print $2}' t.txt` 以逗号做分割从文件中提取数据
+    - Usage:
+        * `awk -F "," '{print $2}' t.txt` 以逗号做分割从文件中提取数据
+        * `awk '{sum += $2} END {print sum}' t.txt` 每行第二列数字之和
     - [AWK 简明教程 - 酷壳](http://coolshell.cn/articles/9070.html)
 
 - **cheat** - linux 命令小抄，比 help 和 man 命令更容易理解，通过实例告诉你怎么使用。
@@ -78,6 +80,7 @@
     - Usage: `vmstat 1`
     - [Linux 监控工具 vmstat 命令详解](http://www.ha97.com/4512.html)
     - [Linux 内存 buffer 和 cache 的区别](http://blog.csdn.net/tianlesoftware/article/details/6459044)
+
 
 ## Best Practices
 
