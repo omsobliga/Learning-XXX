@@ -32,7 +32,13 @@
     - [Linux 的 free 命令详解](http://www.php-oa.com/2008/04/04/linux-free.html)
 
 - **grep** - print lines matching a pattern
-    - [Grep a file, but show several surrounding lines?](http://stackoverflow.com/questions/9081/grep-a-file-but-show-several-surrounding-lines)
+    - Usage:
+        - `grep -B 3 -A 2 foo README.txt`
+        - `grep -C 3 foo README.txt`, grep a file, but show several surrounding lines
+        - `tail -f web.log | grep -E "\" 50[0-9] "`, grep 5xx from the tail of file
+        - `tac web.log | grep -E "\" 50[0-9]"`, grep from file in reverse
+    - [What's the difference between “grep -e” and “grep -E”](http://stackoverflow.com/a/17130337/3175815)
+    - [‘grep’ regular expression syntax](https://www.gnu.org/software/findutils/manual/html_node/find_html/grep-regular-expression-syntax.html)
 
 - **iostat** - input/output statistics
     - Usage: `iostat -k 1`
