@@ -39,3 +39,4 @@
 * [The ultimate Vim configuration: vimrc](https://github.com/amix/vimrc)
 * [My vimrc](https://github.com/omsobliga/profile/blob/master/.vimrc)
 * [k-vim](https://github.com/wklken/k-vim)
+* [Mapping keys in Vim - Tutorial (Part 1)](http://vim.wikia.com/wiki/Mapping_keys_in_Vim_-_Tutorial_(Part_1))

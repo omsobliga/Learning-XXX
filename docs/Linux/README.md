@@ -71,6 +71,13 @@
 - **stat** - display file or file system status
     - [stat(1) - Linux man page](http://linux.die.net/man/1/stat)
 
+- **strace** -  trace system calls and signals
+    - Usage:
+        * `strace -p pid` 绑定 pid 进程追踪系统调用
+        * `strace -f -r -p pid` -f 表示同时追踪子进程，-r 表示同时打印系统调用时间
+        * `strace -o filename -p pid` 把详细日志写入文件
+    - [使用truss、strace 诊断软件的"疑难杂症"](https://www.ibm.com/developerworks/cn/linux/l-tsl/)
+
 - **tcpdump** - dump traffic on a network
     - Usage:
         * `tcpdump -i lo0 port 8000`, listen 8000 port on the lo0 interface.
