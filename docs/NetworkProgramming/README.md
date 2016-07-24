@@ -15,3 +15,15 @@
 - [由 socket 的 accept 说开去](http://ticktick.blog.51cto.com/823160/779866)
 - [Are parallel calls to send/recv on the same socket valid?](http://stackoverflow.com/questions/1981372/are-parallel-calls-to-send-recv-on-the-same-socket-valid)
 - [Atomic write on an unix socket?](http://stackoverflow.com/questions/4669710/atomic-write-on-an-unix-socket)
+
+## 书籍
+
+- [TCP/IP 详解 卷1：协议](https://book.douban.com/subject/1088054/)，了解基础网络协议
+- [UNIX 网络编程](https://book.douban.com/subject/1500149/)，网络编程实战
+- [TCP/IP 高效编程](https://book.douban.com/subject/6058986/)，更多更精彩的实践
+
+## 源码
+
+- Reactor 模型
+    - [Libev](http://software.schmorp.de/pkg/libev.html)
+    - [Tornado](https://pypi.python.org/pypi/tornado/2.0)
