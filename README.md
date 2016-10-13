@@ -1,6 +1,6 @@
 # Learning Notes
 
-Learning notes and resources. You can also see the [detail documentation](http://learning-xxx.readthedocs.org).
+Learning notes and resources. You can also see the [detail documentation](http://learning-notes.readthedocs.io).
 
 ---
 
