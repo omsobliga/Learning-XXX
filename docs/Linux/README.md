@@ -94,7 +94,6 @@
     - [Linux 监控工具 vmstat 命令详解](http://www.ha97.com/4512.html)
     - [Linux 内存 buffer 和 cache 的区别](http://blog.csdn.net/tianlesoftware/article/details/6459044)
 
-
 ## Best Practices
 
 - **How to find the largest files in linux?**
@@ -112,9 +111,17 @@
     - `lsof -i TCP:80`, to find which program is using the port 80.
     - `tcpdump -i lo0 port 8000`, listen 8000 port on the lo0 interface.
 
+- **split a file using a numeric suffix**
+    - `awk '{filename = "prefix." int((NR-1)/10000) ".txt"; print >> filename}' inputfile`
+
 - **Linux 的性能诊断**
     - [Linux 性能分析的第一分钟](http://www.oschina.net/translate/linux-performance-analysis-in-60s)
     - [Linux Performance Analysis in 60,000 Milliseconds](http://techblog.netflix.com/2015/11/linux-performance-analysis-in-60s.html)
+
+## Shell Script
+
+- [How to start multiple processes in Bash](http://stackoverflow.com/questions/5238103/how-to-start-multiple-processes-in-bash)
+- [How can I make variables “exported” in a bash script stick around?](http://unix.stackexchange.com/questions/30189/how-can-i-make-variables-exported-in-a-bash-script-stick-around)
 
 ## References:
 

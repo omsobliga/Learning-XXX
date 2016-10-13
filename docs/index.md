@@ -1,4 +1,4 @@
-# Learning-XXX
+# Learning Notes
 
 Learning notes and resources.
 
@@ -8,7 +8,6 @@ Learning notes and resources.
 
 - [Git](./Git/README)
 - [Linux](./Linux/README)
-- [Linux Shell](./Linux/SHELL)
 - [Markup](./Markup/README)
 - [NetworkProgramming](./NetworkProgramming/README)
 - [Programming](./Programming/README)
