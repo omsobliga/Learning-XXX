@@ -83,7 +83,8 @@
         * `tcpdump -i lo0 port 8000`, listen 8000 port on the lo0 interface.
         * `sudo tcpdump -A src port 8080`, print each pocket on 8080 port from src.
         * `sudo tcpdump -A dst port 8080`, print each pocket on 8080 port to dst.
-    - [A tcpdump Primer with Examples](https://danielmiessler.com/study/tcpdump/)
+        * `tcpdump -vvvs 1024 -l -A host fir3net.com` 打印 HTTP Header
+    - [A tcpdump Primer with Examples](https://danielmiessler.com/study/tcpdump/)
     - [Linux tcpdump 命令详解](http://www.cnblogs.com/ggjucheng/archive/2012/01/14/2322659.html)
 
 - **tmux** - terminal multiplexer
